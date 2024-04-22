@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1080px, initial-scale=1.0">
+    <title>RPS with Computer!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icon.svg">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Pixelify+Sans:wght@400..700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <h1 id="letsGo"> Then Let's GO! </h1>
+    <div id="images_div">
+        <div id="rock_div">
+            <img src="rock.png" alt="Rock Gesture" id="rock_img">
+            <div class="action"> ROCK </div>
+        </div>
+        <div id="paper_div">
+            <img src="paper.png" alt="Paper Gesture" id="paper_img">
+            <div class="action"> PAPER </div>
+        </div>
+        <div id="scissors_div">
+            <img src="scissors.png" alt="Scissor Gesture" id="scissors_img">
+            <div class="action"> SCISSORS </div>
+        </div>
+    </div>
+    <div id="counter_div"> Here are the scores! </div>
+    <div id="commentary"> It is a zero all. </div>
+    <table id="scores_table">
+        <tr id="header-row">
+            <th> YOUR SCORE! </th>
+            <th> COMPUTER SCORE</th>
+        </tr>
+        <tr id="data-row">
+            <td id="yourScore"> 0 </td>
+            <td id="compScore"> 0 </td>
+        </tr>
+    </table>
+    
+    
+    
+    <div id="winner_popup">
+        <img src="winner.gif" alt="winner_gif">
+        <div><br><br><br> CONGRATULATIONS!</div>
+        <div> YOU are the WINNER!!</div>
+        <button> OK </button>
+        <br><br><br>
+    </div>
+</body>
+<script src="script_withComp.js" rel="script"></script>
+
+</html>
